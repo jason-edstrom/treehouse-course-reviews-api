@@ -1,10 +1,10 @@
-package io.instacode.spring.template;
+package io.instacode.treehouse.java;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class TemplateProjectApplicationTests {
+class ApplicationTests {
 
   @Test
   void contextLoads() {
