@@ -39,7 +39,7 @@ public class DatabaseLoader implements ApplicationRunner {
       c.addReview(new Review(i % 5, String.format("Moar %s please!!!", buzzword)));
       bunchOfCourses.add(c);
     });
-   courses.save(bunchOfCourses);
+   courses.saveAll(bunchOfCourses);
 
   }
 }
